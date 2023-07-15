@@ -5,10 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_qssi.mk
-
-COMMON_LUNCH_CHOICES := \
-    omni_qssi-user \
-    omni_qssi-userdebug \
-    omni_qssi-eng
+add_lunch_combo twrp_OP4E8F-user
+add_lunch_combo twrp_OP4E8F-userdebug
+add_lunch_combo twrp_OP4E8F-eng
